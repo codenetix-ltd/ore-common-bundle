@@ -1,0 +1,29 @@
+{
+    "name": "codenetix/oro-common-bundle",
+    "type": "symfony-bundle",
+    "description": "Bundle for ORO platform",
+    "homepage": "https://github.com/codenetix-ltd/oro-common-bundle",
+    "keywords": ["Oro", "Bundle"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Egor Zyuskin",
+            "email": "ezyuskin@codenetix.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "oro/platform": "^2.4"
+    },
+    "autoload": {
+        "psr-4": { "Codenetix\\Oro\\Bundle\\CommonBundle\\": "" },
+        "exclude-from-classmap": ["/Tests/"]
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.x-dev"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

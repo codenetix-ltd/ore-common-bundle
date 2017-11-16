@@ -1,0 +1,10 @@
+navigation:
+    menu_config:
+        items:
+            catalog_tab:
+                label: 'codenetix.oro.common.navigation.catalog_tab.title'
+                uri: '#'
+        tree:
+            application_menu:
+                children:
+                    catalog_tab:

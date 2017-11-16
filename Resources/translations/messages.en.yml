@@ -1,0 +1,16 @@
+codenetix:
+    oro:
+        common:
+            navigation:
+                catalog_tab:
+                    title: Catalog
+            entity:
+                id:
+                    label: Id
+                    description: Entity id
+                brief:
+                    label: Brief
+                    description: Entity short name (unique)
+                name:
+                    label: Name
+                    description: Entity name
